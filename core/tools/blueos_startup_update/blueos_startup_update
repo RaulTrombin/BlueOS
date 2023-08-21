@@ -25,8 +25,8 @@ DELTA_JSON = {
                 'bind': '/etc/dhcpcd.conf',
                 'mode': 'rw'
             },
-            "/usr/blueos/userdata": {
-                "bind": "/usr/blueos/userdata",
+            "/usr/blueos": {
+                "bind": "/usr/blueos",
                 "mode": "rw"
             },
             "/etc/resolv.conf.host": {
